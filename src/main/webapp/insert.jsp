@@ -9,18 +9,18 @@
 	<body>
 		<form action="ExecuteInsertTelevisoreServlet" method="post">
 			<label for = "marcaInputId">MARCA:</label><br>
-			<input type = "text" name =" marcaInput" id = "marcaInputId">
+			<input type = "text" name = "marcaInput" id = "marcaInputId">
 			<br>
-			<label for = "modelloInputId">COGNOME:</label><br>
+			<label for = "modelloInputId">MODELLO:</label><br>
 			<input type = "text" name = "modelloInput" id="modelloInputId">
 			<br>
-			<label for = "prezzoInputId">CODICE FISCALE:</label><br>
+			<label for = "prezzoInputId">PREZZO:</label><br>
 			<input type = "number" name = "prezzoInput" id = "prezzoInputId">
 			<br>
-			<label for = "numeroPolliciInputId">ETA:</label><br>
+			<label for = "numeroPolliciInputId">NUMERO POLLICI:</label><br>
 			<input type = "number" name = "numeroPolliciInput" id = "numeroPolliciInputId">
 			<br>
-			<label for = "codiceInputId">MOTTO:</label><br>
+			<label for = "codiceInputId">CODICE:</label><br>
 			<input type = "text" name = "codiceInput" id = "codiceInputId">
 			<br><br>
 			<input type="submit" value="INSERISCI">
